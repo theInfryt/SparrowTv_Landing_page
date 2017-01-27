@@ -39,9 +39,12 @@ h6 {
     text-align: center;
     color: #f8f8f8;
 
-    background: url(../images/gbfinal.png);
+    background: url(../images/gbfinal.jpg);
     background-size: 1000px 776px;
 }
+
+
+
 
 .intro-message {
     position: relative;
