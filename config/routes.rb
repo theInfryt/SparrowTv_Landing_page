@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :users
+  get 'inscripcion/por_get'
+
+  get 'inscripcion/por_post'
+  post "inscripcion/por_post"
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

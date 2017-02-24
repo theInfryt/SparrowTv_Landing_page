@@ -40,19 +40,21 @@
                     
                     <div class="intro-message">
                         <div class="jumbotron" id="jumbo">
-                        <h1>SparrowTV</h1>
-                        <h3>Los Mejores Estrenos y Series</h3>
+                        <%= image_tag( "sparrow.png", :size => "750x350")%>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
+                           <div class="imagen_logo">
+                                  
+                   
+                            </div>
                             <li>
                                 <a href="https://www.facebook.com/EntertainmentSparrow" class="btn btn-default btn-lg"><i class="fa fa-facebook" aria-hidden="true"></i> <span class="network-name">Facebook</span></a>
                             </li>
                             <li>
-                                <a href="https://plus.google.com" class="btn btn-default btn-lg"><i class="fa fa-google-plus" aria-hidden="true"></i> <span class="network-name">Google+</span></a>
+                                <a href="#services" class="btn btn-default btn-lg"> <span class="network-name">Prueba un Mes Gratis</span></a>
                             </li>
+                           
+                           
                         </ul>
                     </div>
                 </div>
@@ -82,11 +84,31 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Plan Estandar</h2>
-                    <p class="lead">Acceso a nuestra red privada donde podras:<br>Disfrutar de todo el contenido por un mes gratis. Terminado el periodo de prueba, debera cubrirse una cuota que se usara para los gastos de mantenimiento del servidor.</p>
+                    <h2 class="section-heading">Mes Gratis</h2>
+                    <p class="lead">Acceso a nuestra red privada donde podras:<br>Disfrutar de todo el contenido por un mes gratis.</p>
+                     <a href="users/new" class="btn btn-default btn-lg"></i> <span class="network-name">Registrate</span></a>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <images class="images-responsive" src="images/ipad.png" alt="">
+                   <div class="clearfix"></div>
+                    <h2 class="section-heading">Subscripcion</h2>
+                    <p class="lead">Por una donacion(1) de $100 pesos tendras:<br> Acceso a nuestra red privada donde podras<br>disfrutar de las mas de 3000 peliculas y series que compartimos.<br> Puedes pagar con tarjeta de credito o debito via paypal o si lo prefieres puedes contactarnos para depositar en oxxo al telefono 614-4-71-31-78</p>
+                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="HYXYN9LDS5SHS">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                     <%= image_tag( "oxxoLogo.png", :size => "100x75")%>
+                    </form>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="BUZCRJU7N4NK6">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+                  
+                </div>
+                 
                 </div>
             </div>
 
@@ -96,27 +118,7 @@
     </div>
     <!-- /.content-section-a -->
 
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <images class="images-responsive" src="images/dog.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
+ 
 
     <div class="content-section-a">
 				<a  name="contact"></a>
@@ -192,7 +194,7 @@
                             <a href="#contact">Tutoriales</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2017. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; Your Company 2017. All Rights Reserved.1 El dinero de las donaciones se usa para mantener en funcionamiento el sitio y los servidores todo el contenido que compartimos  </p>
                 </div>
             </div>
         </div>
